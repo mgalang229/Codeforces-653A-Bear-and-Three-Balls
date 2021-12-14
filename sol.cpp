@@ -19,6 +19,6 @@ int main() {
 	for (int i = 0; i + 2 < (int) t.size(); i++) {
 		checker |= (t[i + 1] - t[i] <= 2 && t[i + 2] - t[i + 1] <= 2 && t[i + 2] - t[i] <= 2);
 	}
-	cout << (checker ? "YES" : "NO") << '\n'
+	cout << (checker ? "YES" : "NO") << '\n';
 	return 0;
 }
